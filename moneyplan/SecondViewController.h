@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SmpCommonViewController.h"
 
-@interface SecondViewController : UIViewController
+@interface SecondViewController : SmpCommonViewController
+
+@property(weak,nonatomic) IBOutlet UITableView *dataView;
 
 @end

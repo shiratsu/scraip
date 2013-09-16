@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SmpCommonViewController.h"
+#import "InMoneyAdminService.h"
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : SmpCommonViewController
+{
+    InMoneyAdminService *imas;
+    NSMutableArray *aryData;
+}
+
+@property(weak,readonly) IBOutlet UITableView *dataView;
 
 @end
