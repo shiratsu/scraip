@@ -1,0 +1,4 @@
+scraip_study:
+    resource: "@ScraipStudyBundle/Resources/config/routing.yml"
+    prefix:   /
+
