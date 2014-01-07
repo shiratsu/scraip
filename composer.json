@@ -6,8 +6,23 @@
     "autoload": {
         "psr-0": { "": "src/" }
     },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "sonata-project/goutte",
+                "version": "dev-master",
+                "source": {
+                        "url": "https://github.com/sonata-project/SonataGoutteBundle.git",
+                        "type": "git",
+                        "reference": "master"
+                    }
+            }
+        }
+    ],
     "require": {
         "php": ">=5.3.3",
+        "sonata-project/goutte": "dev-master",
         "symfony/symfony": "~2.4",
         "doctrine/orm": "~2.2,>=2.2.3",
         "doctrine/doctrine-bundle": "~1.2",

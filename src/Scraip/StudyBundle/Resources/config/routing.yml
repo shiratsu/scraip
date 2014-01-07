@@ -1,3 +1,8 @@
 scraip_study_homepage:
     pattern:  /hello/{name}
     defaults: { _controller: ScraipStudyBundle:Default:index }
+
+scraip_atnd:
+    pattern:  /atnd/
+    defaults: { _controller: ScraipStudyBundle:Atnd:index }
+

@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "2c0295f7b959d7cc894ee1a78d4f3b41",
+    "hash": "2b16cedd61202d61762f5d0e379b20ff",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1050,6 +1050,17 @@
             "time": "2013-08-21 18:09:35"
         },
         {
+            "name": "sonata-project/goutte",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sonata-project/SonataGoutteBundle.git",
+                "reference": "master"
+            },
+            "type": "library",
+            "time": "2013-09-14 14:41:24"
+        },
+        {
             "name": "swiftmailer/swiftmailer",
             "version": "v5.0.3",
             "source": {
@@ -1540,9 +1551,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "sonata-project/goutte": 20
+    },
     "platform": {
         "php": ">=5.3.3"
     },
