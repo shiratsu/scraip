@@ -1,0 +1,30 @@
+//
+// Prefix header for all source files of the 'moneyplan' target in the 'moneyplan' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#if !defined(NS_BLOCK_ASSERTIONS)
+
+#if !defined(NSLog)
+#define NSLog( args... ) NSLog( args, 0 )
+#endif
+
+#else
+
+#if !defined(NSLog)
+#define NSLog( args... )
+#endif
+
+#endif
+
+#define DBFILE @"moneyAdmin.db"

@@ -1,0 +1,834 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5812E8A417DC021100450D5E /* ItemContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5812E8A217DC021100450D5E /* ItemContentCell.m */; };
+		5812E8A517DC021100450D5E /* ItemContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5812E8A217DC021100450D5E /* ItemContentCell.m */; };
+		5812E8A617DC021100450D5E /* ItemContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5812E8A317DC021100450D5E /* ItemContentCell.xib */; };
+		5812E8A717DC021100450D5E /* ItemContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5812E8A317DC021100450D5E /* ItemContentCell.xib */; };
+		5812E8AA17DC023000450D5E /* CustomTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5812E8A917DC023000450D5E /* CustomTableView.m */; };
+		5812E8AB17DC023000450D5E /* CustomTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5812E8A917DC023000450D5E /* CustomTableView.m */; };
+		58199D2C17D79038005352A3 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 58199D2B17D79038005352A3 /* libsqlite3.0.dylib */; };
+		58199D2F17D790FC005352A3 /* SqliteBaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 58199D2E17D790FC005352A3 /* SqliteBaseService.m */; };
+		58199D3217D79112005352A3 /* SmpCommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58199D3117D79112005352A3 /* SmpCommonViewController.m */; };
+		58199D3517D7FB2E005352A3 /* InMoneyAdmin.m in Sources */ = {isa = PBXBuildFile; fileRef = 58199D3417D7FB2E005352A3 /* InMoneyAdmin.m */; };
+		58199D3817D7FB63005352A3 /* MoneyAdmin.m in Sources */ = {isa = PBXBuildFile; fileRef = 58199D3717D7FB63005352A3 /* MoneyAdmin.m */; };
+		58199D3917D7FB63005352A3 /* MoneyAdmin.m in Sources */ = {isa = PBXBuildFile; fileRef = 58199D3717D7FB63005352A3 /* MoneyAdmin.m */; };
+		58199D3C17D7FB87005352A3 /* MoneyCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 58199D3B17D7FB87005352A3 /* MoneyCategory.m */; };
+		58199D3D17D7FB87005352A3 /* MoneyCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 58199D3B17D7FB87005352A3 /* MoneyCategory.m */; };
+		58199D4017D7FBFB005352A3 /* TyotikuAdmin.m in Sources */ = {isa = PBXBuildFile; fileRef = 58199D3F17D7FBFB005352A3 /* TyotikuAdmin.m */; };
+		58199D4117D7FBFB005352A3 /* TyotikuAdmin.m in Sources */ = {isa = PBXBuildFile; fileRef = 58199D3F17D7FBFB005352A3 /* TyotikuAdmin.m */; };
+		5868196517E697CC00F32B86 /* MoneyYearMonth.m in Sources */ = {isa = PBXBuildFile; fileRef = 5868196317E697CC00F32B86 /* MoneyYearMonth.m */; };
+		5868196617E697CC00F32B86 /* MoneyYearMonth.m in Sources */ = {isa = PBXBuildFile; fileRef = 5868196317E697CC00F32B86 /* MoneyYearMonth.m */; };
+		5868196717E697CC00F32B86 /* MoneyYearMonth.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5868196417E697CC00F32B86 /* MoneyYearMonth.xib */; };
+		5868196817E697CC00F32B86 /* MoneyYearMonth.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5868196417E697CC00F32B86 /* MoneyYearMonth.xib */; };
+		5868196B17E6A62700F32B86 /* AddCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5868196A17E6A62700F32B86 /* AddCommon.m */; };
+		5868196C17E6A62700F32B86 /* AddCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5868196A17E6A62700F32B86 /* AddCommon.m */; };
+		586B1D8B17E61074001F742B /* YearMonthCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 586B1D8A17E61074001F742B /* YearMonthCommon.m */; };
+		586B1D8C17E61074001F742B /* YearMonthCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 586B1D8A17E61074001F742B /* YearMonthCommon.m */; };
+		586DFF2417E5C42000E5E377 /* InMoneyAnother.m in Sources */ = {isa = PBXBuildFile; fileRef = 586DFF2217E5C42000E5E377 /* InMoneyAnother.m */; };
+		586DFF2517E5C42000E5E377 /* InMoneyAnother.m in Sources */ = {isa = PBXBuildFile; fileRef = 586DFF2217E5C42000E5E377 /* InMoneyAnother.m */; };
+		586DFF2617E5C42000E5E377 /* InMoneyAnother.xib in Resources */ = {isa = PBXBuildFile; fileRef = 586DFF2317E5C42000E5E377 /* InMoneyAnother.xib */; };
+		586DFF2717E5C42000E5E377 /* InMoneyAnother.xib in Resources */ = {isa = PBXBuildFile; fileRef = 586DFF2317E5C42000E5E377 /* InMoneyAnother.xib */; };
+		586DFF2B17E5C81600E5E377 /* InMoneyYearMonth.m in Sources */ = {isa = PBXBuildFile; fileRef = 586DFF2917E5C81600E5E377 /* InMoneyYearMonth.m */; };
+		586DFF2C17E5C81600E5E377 /* InMoneyYearMonth.m in Sources */ = {isa = PBXBuildFile; fileRef = 586DFF2917E5C81600E5E377 /* InMoneyYearMonth.m */; };
+		586DFF2D17E5C81600E5E377 /* InMoneyYearMonth.xib in Resources */ = {isa = PBXBuildFile; fileRef = 586DFF2A17E5C81600E5E377 /* InMoneyYearMonth.xib */; };
+		586DFF2E17E5C81600E5E377 /* InMoneyYearMonth.xib in Resources */ = {isa = PBXBuildFile; fileRef = 586DFF2A17E5C81600E5E377 /* InMoneyYearMonth.xib */; };
+		586F6C2617D77A62003F2141 /* TableDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 586F6C2517D77A62003F2141 /* TableDefine.m */; };
+		586F6C2717D77A62003F2141 /* TableDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 586F6C2517D77A62003F2141 /* TableDefine.m */; };
+		586F6C2F17D77A7B003F2141 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 586F6C2A17D77A7B003F2141 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		586F6C3017D77A7B003F2141 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 586F6C2A17D77A7B003F2141 /* FMDatabase.m */; };
+		586F6C3117D77A7B003F2141 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 586F6C2C17D77A7B003F2141 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		586F6C3217D77A7B003F2141 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 586F6C2C17D77A7B003F2141 /* FMDatabaseAdditions.m */; };
+		586F6C3317D77A7B003F2141 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 586F6C2E17D77A7B003F2141 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		586F6C3417D77A7B003F2141 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 586F6C2E17D77A7B003F2141 /* FMResultSet.m */; };
+		5878420717D93EDC0056B90C /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5878420417D93EDC0056B90C /* MBProgressHUD.m */; };
+		5878420817D93EDC0056B90C /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5878420417D93EDC0056B90C /* MBProgressHUD.m */; };
+		5878420917D93EDC0056B90C /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 5878420617D93EDC0056B90C /* Common.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5878420A17D93EDC0056B90C /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 5878420617D93EDC0056B90C /* Common.m */; };
+		5885E85217D6204F00A4A804 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5885E85117D6204F00A4A804 /* UIKit.framework */; };
+		5885E85417D6204F00A4A804 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5885E85317D6204F00A4A804 /* Foundation.framework */; };
+		5885E85617D6204F00A4A804 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5885E85517D6204F00A4A804 /* CoreGraphics.framework */; };
+		5885E85C17D6204F00A4A804 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5885E85A17D6204F00A4A804 /* InfoPlist.strings */; };
+		5885E85E17D6204F00A4A804 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5885E85D17D6204F00A4A804 /* main.m */; };
+		5885E86217D6204F00A4A804 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5885E86117D6204F00A4A804 /* AppDelegate.m */; };
+		5885E86417D6204F00A4A804 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5885E86317D6204F00A4A804 /* Default.png */; };
+		5885E86617D6204F00A4A804 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5885E86517D6204F00A4A804 /* Default@2x.png */; };
+		5885E86817D6204F00A4A804 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5885E86717D6204F00A4A804 /* Default-568h@2x.png */; };
+		5885E86B17D6204F00A4A804 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5885E86917D6204F00A4A804 /* MainStoryboard.storyboard */; };
+		5885E86E17D6204F00A4A804 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5885E86D17D6204F00A4A804 /* FirstViewController.m */; };
+		5885E87017D6204F00A4A804 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 5885E86F17D6204F00A4A804 /* first.png */; };
+		5885E87217D6204F00A4A804 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5885E87117D6204F00A4A804 /* first@2x.png */; };
+		5885E87517D6204F00A4A804 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5885E87417D6204F00A4A804 /* SecondViewController.m */; };
+		5885E87717D6204F00A4A804 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 5885E87617D6204F00A4A804 /* second.png */; };
+		5885E87917D6204F00A4A804 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5885E87817D6204F00A4A804 /* second@2x.png */; };
+		5885E88117D6204F00A4A804 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5885E88017D6204F00A4A804 /* SenTestingKit.framework */; };
+		5885E88217D6204F00A4A804 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5885E85117D6204F00A4A804 /* UIKit.framework */; };
+		5885E88317D6204F00A4A804 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5885E85317D6204F00A4A804 /* Foundation.framework */; };
+		5885E88B17D6204F00A4A804 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5885E88917D6204F00A4A804 /* InfoPlist.strings */; };
+		5885E88E17D6204F00A4A804 /* moneyplanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5885E88D17D6204F00A4A804 /* moneyplanTests.m */; };
+		5885E89817D620AF00A4A804 /* moneyAdmin.db in Resources */ = {isa = PBXBuildFile; fileRef = 5885E89717D620AF00A4A804 /* moneyAdmin.db */; };
+		5885E8A217D69A0F00A4A804 /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 5885E8A017D69A0F00A4A804 /* Category.m */; };
+		5885E8A317D69A0F00A4A804 /* Category.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5885E8A117D69A0F00A4A804 /* Category.xib */; };
+		5885E8A717D69B7500A4A804 /* Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 5885E8A517D69B7500A4A804 /* Help.m */; };
+		5885E8A817D69B7500A4A804 /* Help.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5885E8A617D69B7500A4A804 /* Help.xib */; };
+		5885E8AC17D69BAB00A4A804 /* Tyotiku.m in Sources */ = {isa = PBXBuildFile; fileRef = 5885E8AA17D69BAB00A4A804 /* Tyotiku.m */; };
+		5885E8AD17D69BAB00A4A804 /* Tyotiku.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5885E8AB17D69BAB00A4A804 /* Tyotiku.xib */; };
+		5891108617E19B3C007D8EE6 /* AddInMoney.m in Sources */ = {isa = PBXBuildFile; fileRef = 5891108417E19B3C007D8EE6 /* AddInMoney.m */; };
+		5891108717E19B3C007D8EE6 /* AddInMoney.m in Sources */ = {isa = PBXBuildFile; fileRef = 5891108417E19B3C007D8EE6 /* AddInMoney.m */; };
+		5891108817E19B3C007D8EE6 /* AddInMoney.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5891108517E19B3C007D8EE6 /* AddInMoney.xib */; };
+		5891108917E19B3C007D8EE6 /* AddInMoney.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5891108517E19B3C007D8EE6 /* AddInMoney.xib */; };
+		58C3289E17DB5FF900E28030 /* InMoneyAdminService.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C3289D17DB5FF900E28030 /* InMoneyAdminService.m */; };
+		58C3289F17DB5FF900E28030 /* InMoneyAdminService.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C3289D17DB5FF900E28030 /* InMoneyAdminService.m */; };
+		58C328A217DB601500E28030 /* MoneyAdminService.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C328A117DB601500E28030 /* MoneyAdminService.m */; };
+		58C328A317DB601500E28030 /* MoneyAdminService.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C328A117DB601500E28030 /* MoneyAdminService.m */; };
+		58C328A617DB60F400E28030 /* MoneyCategoryService.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C328A517DB60F400E28030 /* MoneyCategoryService.m */; };
+		58C328A717DB60F400E28030 /* MoneyCategoryService.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C328A517DB60F400E28030 /* MoneyCategoryService.m */; };
+		58C328AA17DB61AD00E28030 /* TyotikuService.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C328A917DB61AD00E28030 /* TyotikuService.m */; };
+		58C328AB17DB61AD00E28030 /* TyotikuService.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C328A917DB61AD00E28030 /* TyotikuService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5885E88417D6204F00A4A804 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5885E84617D6204F00A4A804 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5885E84D17D6204F00A4A804;
+			remoteInfo = moneyplan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5812E8A117DC021100450D5E /* ItemContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemContentCell.h; sourceTree = "<group>"; };
+		5812E8A217DC021100450D5E /* ItemContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemContentCell.m; sourceTree = "<group>"; };
+		5812E8A317DC021100450D5E /* ItemContentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemContentCell.xib; sourceTree = "<group>"; };
+		5812E8A817DC023000450D5E /* CustomTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableView.h; sourceTree = "<group>"; };
+		5812E8A917DC023000450D5E /* CustomTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableView.m; sourceTree = "<group>"; };
+		58199D2B17D79038005352A3 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		58199D2D17D790FC005352A3 /* SqliteBaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteBaseService.h; sourceTree = "<group>"; };
+		58199D2E17D790FC005352A3 /* SqliteBaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteBaseService.m; sourceTree = "<group>"; };
+		58199D3017D79112005352A3 /* SmpCommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmpCommonViewController.h; sourceTree = "<group>"; };
+		58199D3117D79112005352A3 /* SmpCommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmpCommonViewController.m; sourceTree = "<group>"; };
+		58199D3317D7FB2E005352A3 /* InMoneyAdmin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InMoneyAdmin.h; sourceTree = "<group>"; };
+		58199D3417D7FB2E005352A3 /* InMoneyAdmin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InMoneyAdmin.m; sourceTree = "<group>"; };
+		58199D3617D7FB63005352A3 /* MoneyAdmin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoneyAdmin.h; sourceTree = "<group>"; };
+		58199D3717D7FB63005352A3 /* MoneyAdmin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoneyAdmin.m; sourceTree = "<group>"; };
+		58199D3A17D7FB87005352A3 /* MoneyCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoneyCategory.h; sourceTree = "<group>"; };
+		58199D3B17D7FB87005352A3 /* MoneyCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoneyCategory.m; sourceTree = "<group>"; };
+		58199D3E17D7FBFB005352A3 /* TyotikuAdmin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TyotikuAdmin.h; sourceTree = "<group>"; };
+		58199D3F17D7FBFB005352A3 /* TyotikuAdmin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TyotikuAdmin.m; sourceTree = "<group>"; };
+		5868196217E697CC00F32B86 /* MoneyYearMonth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoneyYearMonth.h; sourceTree = "<group>"; };
+		5868196317E697CC00F32B86 /* MoneyYearMonth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoneyYearMonth.m; sourceTree = "<group>"; };
+		5868196417E697CC00F32B86 /* MoneyYearMonth.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoneyYearMonth.xib; sourceTree = "<group>"; };
+		5868196917E6A62700F32B86 /* AddCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCommon.h; sourceTree = "<group>"; };
+		5868196A17E6A62700F32B86 /* AddCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCommon.m; sourceTree = "<group>"; };
+		586B1D8917E61074001F742B /* YearMonthCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YearMonthCommon.h; sourceTree = "<group>"; };
+		586B1D8A17E61074001F742B /* YearMonthCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YearMonthCommon.m; sourceTree = "<group>"; };
+		586DFF2117E5C42000E5E377 /* InMoneyAnother.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InMoneyAnother.h; sourceTree = "<group>"; };
+		586DFF2217E5C42000E5E377 /* InMoneyAnother.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InMoneyAnother.m; sourceTree = "<group>"; };
+		586DFF2317E5C42000E5E377 /* InMoneyAnother.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InMoneyAnother.xib; sourceTree = "<group>"; };
+		586DFF2817E5C81600E5E377 /* InMoneyYearMonth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InMoneyYearMonth.h; sourceTree = "<group>"; };
+		586DFF2917E5C81600E5E377 /* InMoneyYearMonth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InMoneyYearMonth.m; sourceTree = "<group>"; };
+		586DFF2A17E5C81600E5E377 /* InMoneyYearMonth.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InMoneyYearMonth.xib; sourceTree = "<group>"; };
+		586F6C2417D77A62003F2141 /* TableDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableDefine.h; sourceTree = "<group>"; };
+		586F6C2517D77A62003F2141 /* TableDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableDefine.m; sourceTree = "<group>"; };
+		586F6C2917D77A7B003F2141 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		586F6C2A17D77A7B003F2141 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		586F6C2B17D77A7B003F2141 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		586F6C2C17D77A7B003F2141 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		586F6C2D17D77A7B003F2141 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		586F6C2E17D77A7B003F2141 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		5878420317D93EDC0056B90C /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		5878420417D93EDC0056B90C /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		5878420517D93EDC0056B90C /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		5878420617D93EDC0056B90C /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		5885E84E17D6204F00A4A804 /* moneyplan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moneyplan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5885E85117D6204F00A4A804 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5885E85317D6204F00A4A804 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5885E85517D6204F00A4A804 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5885E85917D6204F00A4A804 /* moneyplan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "moneyplan-Info.plist"; sourceTree = "<group>"; };
+		5885E85B17D6204F00A4A804 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5885E85D17D6204F00A4A804 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5885E85F17D6204F00A4A804 /* moneyplan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "moneyplan-Prefix.pch"; sourceTree = "<group>"; };
+		5885E86017D6204F00A4A804 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5885E86117D6204F00A4A804 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5885E86317D6204F00A4A804 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5885E86517D6204F00A4A804 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5885E86717D6204F00A4A804 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5885E86A17D6204F00A4A804 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5885E86C17D6204F00A4A804 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		5885E86D17D6204F00A4A804 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		5885E86F17D6204F00A4A804 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		5885E87117D6204F00A4A804 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		5885E87317D6204F00A4A804 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5885E87417D6204F00A4A804 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		5885E87617D6204F00A4A804 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		5885E87817D6204F00A4A804 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		5885E87F17D6204F00A4A804 /* moneyplanTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moneyplanTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5885E88017D6204F00A4A804 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5885E88817D6204F00A4A804 /* moneyplanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "moneyplanTests-Info.plist"; sourceTree = "<group>"; };
+		5885E88A17D6204F00A4A804 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5885E88C17D6204F00A4A804 /* moneyplanTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = moneyplanTests.h; sourceTree = "<group>"; };
+		5885E88D17D6204F00A4A804 /* moneyplanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = moneyplanTests.m; sourceTree = "<group>"; };
+		5885E89717D620AF00A4A804 /* moneyAdmin.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = moneyAdmin.db; sourceTree = "<group>"; };
+		5885E89F17D69A0F00A4A804 /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
+		5885E8A017D69A0F00A4A804 /* Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Category.m; sourceTree = "<group>"; };
+		5885E8A117D69A0F00A4A804 /* Category.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Category.xib; sourceTree = "<group>"; };
+		5885E8A417D69B7500A4A804 /* Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Help.h; sourceTree = "<group>"; };
+		5885E8A517D69B7500A4A804 /* Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Help.m; sourceTree = "<group>"; };
+		5885E8A617D69B7500A4A804 /* Help.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Help.xib; sourceTree = "<group>"; };
+		5885E8A917D69BAB00A4A804 /* Tyotiku.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tyotiku.h; sourceTree = "<group>"; };
+		5885E8AA17D69BAB00A4A804 /* Tyotiku.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tyotiku.m; sourceTree = "<group>"; };
+		5885E8AB17D69BAB00A4A804 /* Tyotiku.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Tyotiku.xib; sourceTree = "<group>"; };
+		5891108317E19B3C007D8EE6 /* AddInMoney.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddInMoney.h; sourceTree = "<group>"; };
+		5891108417E19B3C007D8EE6 /* AddInMoney.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddInMoney.m; sourceTree = "<group>"; };
+		5891108517E19B3C007D8EE6 /* AddInMoney.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddInMoney.xib; sourceTree = "<group>"; };
+		58C3289C17DB5FF900E28030 /* InMoneyAdminService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InMoneyAdminService.h; sourceTree = "<group>"; };
+		58C3289D17DB5FF900E28030 /* InMoneyAdminService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InMoneyAdminService.m; sourceTree = "<group>"; };
+		58C328A017DB601500E28030 /* MoneyAdminService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoneyAdminService.h; sourceTree = "<group>"; };
+		58C328A117DB601500E28030 /* MoneyAdminService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoneyAdminService.m; sourceTree = "<group>"; };
+		58C328A417DB60F400E28030 /* MoneyCategoryService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoneyCategoryService.h; sourceTree = "<group>"; };
+		58C328A517DB60F400E28030 /* MoneyCategoryService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoneyCategoryService.m; sourceTree = "<group>"; };
+		58C328A817DB61AD00E28030 /* TyotikuService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TyotikuService.h; sourceTree = "<group>"; };
+		58C328A917DB61AD00E28030 /* TyotikuService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TyotikuService.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5885E84B17D6204F00A4A804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58199D2C17D79038005352A3 /* libsqlite3.0.dylib in Frameworks */,
+				5885E85217D6204F00A4A804 /* UIKit.framework in Frameworks */,
+				5885E85417D6204F00A4A804 /* Foundation.framework in Frameworks */,
+				5885E85617D6204F00A4A804 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5885E87B17D6204F00A4A804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5885E88117D6204F00A4A804 /* SenTestingKit.framework in Frameworks */,
+				5885E88217D6204F00A4A804 /* UIKit.framework in Frameworks */,
+				5885E88317D6204F00A4A804 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		586F6C2817D77A6C003F2141 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				586F6C2917D77A7B003F2141 /* FMDatabase.h */,
+				586F6C2A17D77A7B003F2141 /* FMDatabase.m */,
+				586F6C2B17D77A7B003F2141 /* FMDatabaseAdditions.h */,
+				586F6C2C17D77A7B003F2141 /* FMDatabaseAdditions.m */,
+				586F6C2D17D77A7B003F2141 /* FMResultSet.h */,
+				586F6C2E17D77A7B003F2141 /* FMResultSet.m */,
+			);
+			name = fmdb;
+			sourceTree = "<group>";
+		};
+		5885E84517D6204F00A4A804 = {
+			isa = PBXGroup;
+			children = (
+				5885E85717D6204F00A4A804 /* moneyplan */,
+				5885E88617D6204F00A4A804 /* moneyplanTests */,
+				5885E85017D6204F00A4A804 /* Frameworks */,
+				5885E84F17D6204F00A4A804 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5885E84F17D6204F00A4A804 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5885E84E17D6204F00A4A804 /* moneyplan.app */,
+				5885E87F17D6204F00A4A804 /* moneyplanTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5885E85017D6204F00A4A804 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58199D2B17D79038005352A3 /* libsqlite3.0.dylib */,
+				5885E85117D6204F00A4A804 /* UIKit.framework */,
+				5885E85317D6204F00A4A804 /* Foundation.framework */,
+				5885E85517D6204F00A4A804 /* CoreGraphics.framework */,
+				5885E88017D6204F00A4A804 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5885E85717D6204F00A4A804 /* moneyplan */ = {
+			isa = PBXGroup;
+			children = (
+				5891108217E19AE0007D8EE6 /* another */,
+				5891108117E19AC3007D8EE6 /* tyotiku */,
+				5891108017E19A9C007D8EE6 /* moneyadmin */,
+				5891107F17E19A91007D8EE6 /* inmoneyadmin */,
+				586F6C2817D77A6C003F2141 /* fmdb */,
+				5885E89E17D6999C00A4A804 /* controller */,
+				5885E89D17D62D9E00A4A804 /* table */,
+				5885E89C17D6212800A4A804 /* image */,
+				5885E89B17D6210A00A4A804 /* conf */,
+				5885E89A17D620BC00A4A804 /* common */,
+				5885E89917D620B300A4A804 /* service */,
+				5885E86017D6204F00A4A804 /* AppDelegate.h */,
+				5885E86117D6204F00A4A804 /* AppDelegate.m */,
+				5885E86917D6204F00A4A804 /* MainStoryboard.storyboard */,
+				5885E86C17D6204F00A4A804 /* FirstViewController.h */,
+				5885E86D17D6204F00A4A804 /* FirstViewController.m */,
+				5885E86F17D6204F00A4A804 /* first.png */,
+				5885E87117D6204F00A4A804 /* first@2x.png */,
+				5885E87317D6204F00A4A804 /* SecondViewController.h */,
+				5885E87417D6204F00A4A804 /* SecondViewController.m */,
+				5885E87617D6204F00A4A804 /* second.png */,
+				5885E87817D6204F00A4A804 /* second@2x.png */,
+				5885E85817D6204F00A4A804 /* Supporting Files */,
+			);
+			path = moneyplan;
+			sourceTree = "<group>";
+		};
+		5885E85817D6204F00A4A804 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5885E89717D620AF00A4A804 /* moneyAdmin.db */,
+				5885E85917D6204F00A4A804 /* moneyplan-Info.plist */,
+				5885E85A17D6204F00A4A804 /* InfoPlist.strings */,
+				5885E85D17D6204F00A4A804 /* main.m */,
+				5885E85F17D6204F00A4A804 /* moneyplan-Prefix.pch */,
+				5885E86317D6204F00A4A804 /* Default.png */,
+				5885E86517D6204F00A4A804 /* Default@2x.png */,
+				5885E86717D6204F00A4A804 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5885E88617D6204F00A4A804 /* moneyplanTests */ = {
+			isa = PBXGroup;
+			children = (
+				5885E88C17D6204F00A4A804 /* moneyplanTests.h */,
+				5885E88D17D6204F00A4A804 /* moneyplanTests.m */,
+				5885E88717D6204F00A4A804 /* Supporting Files */,
+			);
+			path = moneyplanTests;
+			sourceTree = "<group>";
+		};
+		5885E88717D6204F00A4A804 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5885E88817D6204F00A4A804 /* moneyplanTests-Info.plist */,
+				5885E88917D6204F00A4A804 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5885E89917D620B300A4A804 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				58199D2D17D790FC005352A3 /* SqliteBaseService.h */,
+				58199D2E17D790FC005352A3 /* SqliteBaseService.m */,
+				58C3289C17DB5FF900E28030 /* InMoneyAdminService.h */,
+				58C3289D17DB5FF900E28030 /* InMoneyAdminService.m */,
+				58C328A017DB601500E28030 /* MoneyAdminService.h */,
+				58C328A117DB601500E28030 /* MoneyAdminService.m */,
+				58C328A417DB60F400E28030 /* MoneyCategoryService.h */,
+				58C328A517DB60F400E28030 /* MoneyCategoryService.m */,
+				58C328A817DB61AD00E28030 /* TyotikuService.h */,
+				58C328A917DB61AD00E28030 /* TyotikuService.m */,
+			);
+			name = service;
+			sourceTree = "<group>";
+		};
+		5885E89A17D620BC00A4A804 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				5878420317D93EDC0056B90C /* MBProgressHUD.h */,
+				5878420417D93EDC0056B90C /* MBProgressHUD.m */,
+				5878420517D93EDC0056B90C /* Common.h */,
+				5878420617D93EDC0056B90C /* Common.m */,
+				58199D3017D79112005352A3 /* SmpCommonViewController.h */,
+				58199D3117D79112005352A3 /* SmpCommonViewController.m */,
+				586B1D8917E61074001F742B /* YearMonthCommon.h */,
+				586B1D8A17E61074001F742B /* YearMonthCommon.m */,
+				5868196917E6A62700F32B86 /* AddCommon.h */,
+				5868196A17E6A62700F32B86 /* AddCommon.m */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		5885E89B17D6210A00A4A804 /* conf */ = {
+			isa = PBXGroup;
+			children = (
+				586F6C2417D77A62003F2141 /* TableDefine.h */,
+				586F6C2517D77A62003F2141 /* TableDefine.m */,
+				58199D3317D7FB2E005352A3 /* InMoneyAdmin.h */,
+				58199D3417D7FB2E005352A3 /* InMoneyAdmin.m */,
+				58199D3617D7FB63005352A3 /* MoneyAdmin.h */,
+				58199D3717D7FB63005352A3 /* MoneyAdmin.m */,
+				58199D3A17D7FB87005352A3 /* MoneyCategory.h */,
+				58199D3B17D7FB87005352A3 /* MoneyCategory.m */,
+				58199D3E17D7FBFB005352A3 /* TyotikuAdmin.h */,
+				58199D3F17D7FBFB005352A3 /* TyotikuAdmin.m */,
+			);
+			name = conf;
+			sourceTree = "<group>";
+		};
+		5885E89C17D6212800A4A804 /* image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		5885E89D17D62D9E00A4A804 /* table */ = {
+			isa = PBXGroup;
+			children = (
+				5812E8A117DC021100450D5E /* ItemContentCell.h */,
+				5812E8A217DC021100450D5E /* ItemContentCell.m */,
+				5812E8A317DC021100450D5E /* ItemContentCell.xib */,
+				5812E8A817DC023000450D5E /* CustomTableView.h */,
+				5812E8A917DC023000450D5E /* CustomTableView.m */,
+			);
+			name = table;
+			sourceTree = "<group>";
+		};
+		5885E89E17D6999C00A4A804 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				5885E89F17D69A0F00A4A804 /* Category.h */,
+				5885E8A017D69A0F00A4A804 /* Category.m */,
+				5885E8A117D69A0F00A4A804 /* Category.xib */,
+				5885E8A417D69B7500A4A804 /* Help.h */,
+				5885E8A517D69B7500A4A804 /* Help.m */,
+				5885E8A617D69B7500A4A804 /* Help.xib */,
+				5885E8A917D69BAB00A4A804 /* Tyotiku.h */,
+				5885E8AA17D69BAB00A4A804 /* Tyotiku.m */,
+				5885E8AB17D69BAB00A4A804 /* Tyotiku.xib */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		5891107F17E19A91007D8EE6 /* inmoneyadmin */ = {
+			isa = PBXGroup;
+			children = (
+				5891108317E19B3C007D8EE6 /* AddInMoney.h */,
+				5891108417E19B3C007D8EE6 /* AddInMoney.m */,
+				5891108517E19B3C007D8EE6 /* AddInMoney.xib */,
+				586DFF2117E5C42000E5E377 /* InMoneyAnother.h */,
+				586DFF2217E5C42000E5E377 /* InMoneyAnother.m */,
+				586DFF2317E5C42000E5E377 /* InMoneyAnother.xib */,
+				586DFF2817E5C81600E5E377 /* InMoneyYearMonth.h */,
+				586DFF2917E5C81600E5E377 /* InMoneyYearMonth.m */,
+				586DFF2A17E5C81600E5E377 /* InMoneyYearMonth.xib */,
+			);
+			name = inmoneyadmin;
+			sourceTree = "<group>";
+		};
+		5891108017E19A9C007D8EE6 /* moneyadmin */ = {
+			isa = PBXGroup;
+			children = (
+				5868196217E697CC00F32B86 /* MoneyYearMonth.h */,
+				5868196317E697CC00F32B86 /* MoneyYearMonth.m */,
+				5868196417E697CC00F32B86 /* MoneyYearMonth.xib */,
+			);
+			name = moneyadmin;
+			sourceTree = "<group>";
+		};
+		5891108117E19AC3007D8EE6 /* tyotiku */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = tyotiku;
+			sourceTree = "<group>";
+		};
+		5891108217E19AE0007D8EE6 /* another */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = another;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5885E84D17D6204F00A4A804 /* moneyplan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5885E89117D6204F00A4A804 /* Build configuration list for PBXNativeTarget "moneyplan" */;
+			buildPhases = (
+				5885E84A17D6204F00A4A804 /* Sources */,
+				5885E84B17D6204F00A4A804 /* Frameworks */,
+				5885E84C17D6204F00A4A804 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = moneyplan;
+			productName = moneyplan;
+			productReference = 5885E84E17D6204F00A4A804 /* moneyplan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5885E87E17D6204F00A4A804 /* moneyplanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5885E89417D6204F00A4A804 /* Build configuration list for PBXNativeTarget "moneyplanTests" */;
+			buildPhases = (
+				5885E87A17D6204F00A4A804 /* Sources */,
+				5885E87B17D6204F00A4A804 /* Frameworks */,
+				5885E87C17D6204F00A4A804 /* Resources */,
+				5885E87D17D6204F00A4A804 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5885E88517D6204F00A4A804 /* PBXTargetDependency */,
+			);
+			name = moneyplanTests;
+			productName = moneyplanTests;
+			productReference = 5885E87F17D6204F00A4A804 /* moneyplanTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5885E84617D6204F00A4A804 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "HIRATSUKA SHUNSUKE";
+			};
+			buildConfigurationList = 5885E84917D6204F00A4A804 /* Build configuration list for PBXProject "moneyplan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5885E84517D6204F00A4A804;
+			productRefGroup = 5885E84F17D6204F00A4A804 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5885E84D17D6204F00A4A804 /* moneyplan */,
+				5885E87E17D6204F00A4A804 /* moneyplanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5885E84C17D6204F00A4A804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5885E85C17D6204F00A4A804 /* InfoPlist.strings in Resources */,
+				5885E86417D6204F00A4A804 /* Default.png in Resources */,
+				5891108817E19B3C007D8EE6 /* AddInMoney.xib in Resources */,
+				586DFF2617E5C42000E5E377 /* InMoneyAnother.xib in Resources */,
+				5885E86617D6204F00A4A804 /* Default@2x.png in Resources */,
+				5885E86817D6204F00A4A804 /* Default-568h@2x.png in Resources */,
+				5885E86B17D6204F00A4A804 /* MainStoryboard.storyboard in Resources */,
+				5885E87017D6204F00A4A804 /* first.png in Resources */,
+				5885E87217D6204F00A4A804 /* first@2x.png in Resources */,
+				5885E87717D6204F00A4A804 /* second.png in Resources */,
+				5868196717E697CC00F32B86 /* MoneyYearMonth.xib in Resources */,
+				5885E87917D6204F00A4A804 /* second@2x.png in Resources */,
+				586DFF2D17E5C81600E5E377 /* InMoneyYearMonth.xib in Resources */,
+				5885E89817D620AF00A4A804 /* moneyAdmin.db in Resources */,
+				5812E8A617DC021100450D5E /* ItemContentCell.xib in Resources */,
+				5885E8A317D69A0F00A4A804 /* Category.xib in Resources */,
+				5885E8A817D69B7500A4A804 /* Help.xib in Resources */,
+				5885E8AD17D69BAB00A4A804 /* Tyotiku.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5885E87C17D6204F00A4A804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5812E8A717DC021100450D5E /* ItemContentCell.xib in Resources */,
+				5885E88B17D6204F00A4A804 /* InfoPlist.strings in Resources */,
+				5891108917E19B3C007D8EE6 /* AddInMoney.xib in Resources */,
+				586DFF2E17E5C81600E5E377 /* InMoneyYearMonth.xib in Resources */,
+				5868196817E697CC00F32B86 /* MoneyYearMonth.xib in Resources */,
+				586DFF2717E5C42000E5E377 /* InMoneyAnother.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5885E87D17D6204F00A4A804 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5885E84A17D6204F00A4A804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58199D3C17D7FB87005352A3 /* MoneyCategory.m in Sources */,
+				5812E8AA17DC023000450D5E /* CustomTableView.m in Sources */,
+				5885E85E17D6204F00A4A804 /* main.m in Sources */,
+				5878420917D93EDC0056B90C /* Common.m in Sources */,
+				5885E86217D6204F00A4A804 /* AppDelegate.m in Sources */,
+				5891108617E19B3C007D8EE6 /* AddInMoney.m in Sources */,
+				58C328A217DB601500E28030 /* MoneyAdminService.m in Sources */,
+				5885E86E17D6204F00A4A804 /* FirstViewController.m in Sources */,
+				586DFF2417E5C42000E5E377 /* InMoneyAnother.m in Sources */,
+				5885E87517D6204F00A4A804 /* SecondViewController.m in Sources */,
+				58199D2F17D790FC005352A3 /* SqliteBaseService.m in Sources */,
+				586DFF2B17E5C81600E5E377 /* InMoneyYearMonth.m in Sources */,
+				5885E8A217D69A0F00A4A804 /* Category.m in Sources */,
+				5885E8A717D69B7500A4A804 /* Help.m in Sources */,
+				58199D4017D7FBFB005352A3 /* TyotikuAdmin.m in Sources */,
+				5885E8AC17D69BAB00A4A804 /* Tyotiku.m in Sources */,
+				58C328A617DB60F400E28030 /* MoneyCategoryService.m in Sources */,
+				586F6C2617D77A62003F2141 /* TableDefine.m in Sources */,
+				5868196517E697CC00F32B86 /* MoneyYearMonth.m in Sources */,
+				5812E8A417DC021100450D5E /* ItemContentCell.m in Sources */,
+				586F6C2F17D77A7B003F2141 /* FMDatabase.m in Sources */,
+				58C3289E17DB5FF900E28030 /* InMoneyAdminService.m in Sources */,
+				586F6C3117D77A7B003F2141 /* FMDatabaseAdditions.m in Sources */,
+				58C328AA17DB61AD00E28030 /* TyotikuService.m in Sources */,
+				5878420717D93EDC0056B90C /* MBProgressHUD.m in Sources */,
+				58199D3517D7FB2E005352A3 /* InMoneyAdmin.m in Sources */,
+				586F6C3317D77A7B003F2141 /* FMResultSet.m in Sources */,
+				5868196B17E6A62700F32B86 /* AddCommon.m in Sources */,
+				58199D3817D7FB63005352A3 /* MoneyAdmin.m in Sources */,
+				586B1D8B17E61074001F742B /* YearMonthCommon.m in Sources */,
+				58199D3217D79112005352A3 /* SmpCommonViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5885E87A17D6204F00A4A804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C328A717DB60F400E28030 /* MoneyCategoryService.m in Sources */,
+				5885E88E17D6204F00A4A804 /* moneyplanTests.m in Sources */,
+				5812E8A517DC021100450D5E /* ItemContentCell.m in Sources */,
+				586F6C2717D77A62003F2141 /* TableDefine.m in Sources */,
+				5891108717E19B3C007D8EE6 /* AddInMoney.m in Sources */,
+				5878420A17D93EDC0056B90C /* Common.m in Sources */,
+				586F6C3017D77A7B003F2141 /* FMDatabase.m in Sources */,
+				58C328A317DB601500E28030 /* MoneyAdminService.m in Sources */,
+				58C3289F17DB5FF900E28030 /* InMoneyAdminService.m in Sources */,
+				5868196617E697CC00F32B86 /* MoneyYearMonth.m in Sources */,
+				5868196C17E6A62700F32B86 /* AddCommon.m in Sources */,
+				58C328AB17DB61AD00E28030 /* TyotikuService.m in Sources */,
+				58199D4117D7FBFB005352A3 /* TyotikuAdmin.m in Sources */,
+				5812E8AB17DC023000450D5E /* CustomTableView.m in Sources */,
+				586B1D8C17E61074001F742B /* YearMonthCommon.m in Sources */,
+				586DFF2C17E5C81600E5E377 /* InMoneyYearMonth.m in Sources */,
+				5878420817D93EDC0056B90C /* MBProgressHUD.m in Sources */,
+				586F6C3217D77A7B003F2141 /* FMDatabaseAdditions.m in Sources */,
+				58199D3917D7FB63005352A3 /* MoneyAdmin.m in Sources */,
+				58199D3D17D7FB87005352A3 /* MoneyCategory.m in Sources */,
+				586F6C3417D77A7B003F2141 /* FMResultSet.m in Sources */,
+				586DFF2517E5C42000E5E377 /* InMoneyAnother.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5885E88517D6204F00A4A804 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5885E84D17D6204F00A4A804 /* moneyplan */;
+			targetProxy = 5885E88417D6204F00A4A804 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5885E85A17D6204F00A4A804 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5885E85B17D6204F00A4A804 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5885E86917D6204F00A4A804 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5885E86A17D6204F00A4A804 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		5885E88917D6204F00A4A804 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5885E88A17D6204F00A4A804 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5885E88F17D6204F00A4A804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5885E89017D6204F00A4A804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5885E89217D6204F00A4A804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "moneyplan/moneyplan-Prefix.pch";
+				INFOPLIST_FILE = "moneyplan/moneyplan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5885E89317D6204F00A4A804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "moneyplan/moneyplan-Prefix.pch";
+				INFOPLIST_FILE = "moneyplan/moneyplan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5885E89517D6204F00A4A804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/moneyplan.app/moneyplan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "moneyplan/moneyplan-Prefix.pch";
+				INFOPLIST_FILE = "moneyplanTests/moneyplanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5885E89617D6204F00A4A804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/moneyplan.app/moneyplan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "moneyplan/moneyplan-Prefix.pch";
+				INFOPLIST_FILE = "moneyplanTests/moneyplanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5885E84917D6204F00A4A804 /* Build configuration list for PBXProject "moneyplan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5885E88F17D6204F00A4A804 /* Debug */,
+				5885E89017D6204F00A4A804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5885E89117D6204F00A4A804 /* Build configuration list for PBXNativeTarget "moneyplan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5885E89217D6204F00A4A804 /* Debug */,
+				5885E89317D6204F00A4A804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5885E89417D6204F00A4A804 /* Build configuration list for PBXNativeTarget "moneyplanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5885E89517D6204F00A4A804 /* Debug */,
+				5885E89617D6204F00A4A804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5885E84617D6204F00A4A804 /* Project object */;
+}
