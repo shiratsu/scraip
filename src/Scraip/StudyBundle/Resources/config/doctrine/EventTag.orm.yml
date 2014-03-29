@@ -1,0 +1,16 @@
+Scraip\StudyBundle\Entity\EventTag:
+  type: entity
+  table: null
+  fields:
+    id:
+      type: integer
+      id: true
+      generator:
+        strategy: AUTO
+    event_id:
+      type: integer
+    tag:
+      type: string
+      length: '45'
+      nullable: TRUE
+  lifecycleCallbacks: {  }

@@ -1,0 +1,12 @@
+Scraip\StudyBundle\Entity\CrawlResult:
+  type: entity
+  table: null
+  fields:
+    event_id:
+      type: integer
+      id: true
+    event_kind:
+      type: integer
+    last_update:
+      type: datetime
+  lifecycleCallbacks: {  }

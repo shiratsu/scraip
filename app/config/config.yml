@@ -68,4 +68,7 @@ swiftmailer:
     password:  "%mailer_password%"
     spool:     { type: memory }
 
+services:
+    scraip.command.atnd:
+        class: Scraip\StudyBundle\Command\AtndCommand
 

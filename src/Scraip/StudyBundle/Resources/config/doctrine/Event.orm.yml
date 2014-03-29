@@ -1,0 +1,36 @@
+Scraip\StudyBundle\Entity\Event:
+  type: entity
+  table: null
+  fields:
+    event_id:
+      type: integer
+      id: true
+    event_title:
+      type: string
+      length: '60'
+    url:
+      type: string
+      length: '255'
+    event_detail:
+      type: string
+      length: '200'
+      nullable: TRUE
+    event_address:
+      type: string
+      length: '50'
+    event_pref:
+      type: string
+      length: '2'
+      nullable: TRUE
+    event_year:
+      type: string
+      length: '4'
+    event_month:
+      type: string
+      length: '2'
+    event_day:
+      type: string
+      length: '2'
+    last_update:
+      type: datetime
+  lifecycleCallbacks: {  }
