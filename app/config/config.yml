@@ -71,4 +71,6 @@ swiftmailer:
 services:
     scraip.command.atnd:
         class: Scraip\StudyBundle\Command\AtndCommand
+    scraip.command.cafe:
+        class: Scraip\StudyBundle\Command\CafeCommand
 
